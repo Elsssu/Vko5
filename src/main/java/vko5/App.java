@@ -43,6 +43,7 @@ public class App
 
                         newMachine = new Machine(machineName, model, workername, role);
                         factory.addMachine(newMachine);
+                        System.out.println("Kone lisätty!");
                         break;
                     case 2:
                         String namef = factory.getName();
